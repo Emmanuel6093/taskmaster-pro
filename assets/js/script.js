@@ -56,6 +56,8 @@ $(".list-group").on("click", "p", function() {
   textInput.trigger("focus");
 });
 
+
+
 $(".list-group").on("blur", "textarea", function(){
   // get the textarea's current value/text
   var text = $(this)
@@ -104,6 +106,8 @@ $(".list-group").on("click", "span", function() {
   // automatically focus on new element
   dateInput.trigger("focus");
 });
+
+
 
 // value of due date was changed
 $(".list-group").on("blur", "input[type='text']", function() {
